@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    background-color: #000300;
+}
+a{
+    @apply hover:text-[#00df9a]
+}
+html{
+    @apply scroll-smooth
+}
+.icon{
+    @apply hover:text-[#00df9a] cursor-pointer
+}
